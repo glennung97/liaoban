@@ -1,0 +1,33 @@
+{
+  "name": "liaoban",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "chatgpt-login": "node scripts/chatgpt-login.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@elevenlabs/client": "^1.27.0",
+    "openai": "^7.32.0",
+    "opencc-js": "^1.4.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vercel/node": "^23.0.1",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
+  }
+}
